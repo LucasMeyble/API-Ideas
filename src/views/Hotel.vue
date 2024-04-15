@@ -1,0 +1,160 @@
+<template>
+    <!-- banner -->
+    <div style="background: url('/src/assets/img/hotel/hero-image-1.png'); height: 450px">
+        <div class="container max-w-5xl mx-auto px-4 h-full flex items-center justify-center">
+            <div>
+                <div class="text-center">
+                    <h1 class="text-gray-200 text-3xl mb-1">Onde você quer ir?</h1>
+                    <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts.</p>
+                </div>
+
+                <div class="mt-7">
+                    <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                        <select class="bg-grey-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                            <option value="">Escolha estado</option>
+                        </select>
+
+                        <select class="bg-grey-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                            <option value="">Escolha cidade</option>
+                        </select>
+
+                        <button
+                            class="col-span-2 lg:col-span-1 inline-flex items-center justify-center text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                            Pesquisar resorts
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /banner -->
+
+    <!-- featured resort -->
+    <div>
+        <div class="container max-w-5xl mx-auto px-4 py-20">
+            <div class="flex flex-col-reverse lg:flex-row">
+                <div class="lg:pr-10">
+                    <div class="text-sm text-gray-400 font-medium">RESORT EM DESTAQUE</div>
+                    <div class="text-2xl">Ecoresort Praia do Forte Bahia</div>
+                    <div class="text-sm text-gray-400 font-medium mt-2">Hotel qualidade 5 estrelas</div>
+                    <div class="text-sm text-gray-400 font-medium mt-4">
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea non quasi?
+                            Deleniti error illum necessitatibus officia ullam. Dicta harum laborum minima nam nobis
+                            perspiciatis quaerat unde. Aspernatur corporis, voluptas.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ea non quasi? Deleniti
+                            error illum necessitatibus officia ullam. Dicta harum laborum minima nam nobis perspiciatis
+                            quaerat unde. Aspernatur corporis, voluptas.</p>
+                    </div>
+
+                    <div class="mt-4">
+                        <a href=""
+                            class="inline-flex items-center text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded">
+                            Solicitar reserva
+                            <svg class="w-4 h-4 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex-shrink-0 lg:ml-auto mb-5 lg:mb-0">
+                    <img src="/src/assets/img/hotel/featured-img.png" width="450">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /featured resort -->
+
+    <!-- resorts grid -->
+    <div>
+        <div class="container max-w-5xl mx-auto px-4">
+            <h3 class="text-2xl text-gray-500 font-semibold text-center mb-8">Conheça mais resorts</h3>
+
+            <div class="md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6 space-y-6 md:space-y-0">
+                <div class="relative md:col-span-2 md:row-span-2 rounded-lg overflow-hidden">
+                    <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                        Beach Park Resort
+                    </div>
+                    <img src="/src/assets/img/hotel/image-shadow.png" class="absolute bottom-0 left-0 right-0 h-20 z-10">
+                    <img src="/src/assets/img/hotel/hotel-1.jpeg" class="w-full h-full object-cover">
+                </div>
+                <div class="relative md:col-span-2 md:h-40 rounded-lg overflow-hidden">
+                    <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                        Salinas do Maragogi Resort
+                    </div>
+                    <img src="/src/assets/img/hotel/image-shadow.png" class="absolute bottom-0 left-0 right-0 h-20 z-10">
+                    <img src="/src/assets/img/hotel/hotel-2.jpeg" class="w-full h-full object-cover">
+                </div>
+                <div class="relative rounded-lg overflow-hidden">
+                    <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                        grand Palladium
+                    </div>
+                    <img src="/src/assets/img/hotel/image-shadow.png" class="absolute bottom-0 left-0 right-0 h-20 z-10">
+                    <img src="/src/assets/img/hotel/hotel-3.jpeg" class="w-full h-full object-cover">
+                </div>
+                <div class="relative rounded-lg overflow-hidden">
+                    <div class="absolute bottom-0 pl-4 pb-4 text-white font-bold z-20">
+                        Arraial d'Ajuda Eco Resort
+                    </div>
+                    <img src="/src/assets/img/hotel/image-shadow.png" class="absolute bottom-0 left-0 right-0 h-20 z-10">
+                    <img src="/src/assets/img/hotel/hotel-4.jpeg" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /resorts grid -->
+
+    <!-- form search -->
+    <div class="py-20">
+        <div class="container max-w-5xl mx-auto px-4 flex justify-center">
+            <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                <select class="bg-grey-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                    <option value="">Escolha estado</option>
+                </select>
+
+                <select class="bg-grey-50 px-3 py-2 border border-gray-300 rounded text-gray-500">
+                    <option value="">Escolha cidade</option>
+                </select>
+
+                <button
+                    class="col-span-2 lg:col-span-1 inline-flex items-center justify-center text-yellow-900 bg-yellow-500 font-medium px-3 py-2 rounded">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    Pesquisar resorts
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- /form search -->
+
+    <!-- footer -->
+    <div class="border-t border-gray-200">
+        <div class="container max-w-5xl mx-auto p-4 flex items-center justify-between">
+            <div class="text-gray-400 font-black">
+                LOGO
+            </div>
+
+            <div class="flex items-center space-x-3">
+                <a href=""><img src="/src/assets/img/hotel/icon-facebook.png"></a>
+                <a href=""><img src="/src/assets/img/hotel/icon-instagram.png"></a>
+            </div>
+        </div>
+    </div>
+    <!-- /footer -->
+
+
+</template>
+
+<script setup>
+
+</script>
