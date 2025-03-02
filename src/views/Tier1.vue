@@ -15,7 +15,7 @@
 <script setup>
 import { ref } from 'vue';
 import Bin2Dec from '../components/Bin2Dec.vue';
-import BoderRadiusPreviewer from '../components/BorderRadiusPreviewer.vue';
+import BoderRadiusPreviewer from '../components/BorderRadiusPreviwer/BorderRadiusPreviewer.vue';
 
 const selectedPage = ref('bin2Dec');
 
