@@ -3,7 +3,10 @@
     <div class="space-y-10 m-h-auto">
       <div class="space-y-5">
         <p class="text-5xl">Boder Radius Previewer</p>
-        <p class="text-base">Enter a binary number, get a decimal conversion.</p>
+        <p>
+          Enter the border-radius values for each corner to customize the shape of the box.
+          You can also enable the 8-value mode for more complex shapes.
+        </p>
       </div>
       <BorderPreview />
       <Controls />
