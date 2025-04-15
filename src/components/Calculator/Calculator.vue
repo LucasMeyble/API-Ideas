@@ -1,4 +1,4 @@
-<style>
+<style scoped lang="postcss">
 button {
   @apply w-full h-12 text-lg font-bold rounded;
 }
