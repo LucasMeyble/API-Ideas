@@ -17,12 +17,14 @@ import { ref } from 'vue';
 import Bin2Dec from '../components/Bin2Dec.vue';
 import BoderRadiusPreviewer from '../components/BorderRadiusPreviwer/BorderRadiusPreviewer.vue';
 import Calculator from '../components/Calculator/Calculator.vue';
+import ChristmasLigths from '../components/ChristmasLigths/ChristmasLigths.vue';
 
 const selectedPage = ref('bin2Dec');
 
 const pages = {
   bin2Dec: Bin2Dec,
   'Boder Radius Previewer': BoderRadiusPreviewer,
-  Calculator: Calculator
+  Calculator: Calculator,
+  ChristmasLigths: ChristmasLigths
 }
 </script>
